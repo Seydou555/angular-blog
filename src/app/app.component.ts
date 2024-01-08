@@ -5,13 +5,14 @@ import { HeaderComponent } from "./layouts/header/header.component";
 import { CategoryNavbarComponent } from "./layouts/category-navbar/category-navbar.component";
 import { FooterComponent } from "./layouts/footer/footer.component";
 import { PostCardComponent } from "./layouts/post-card/post-card.component";
+import { SubscriptionFormComponent } from "./subscription-form/subscription-form.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, HeaderComponent, CategoryNavbarComponent, FooterComponent, PostCardComponent]
+    imports: [CommonModule, RouterOutlet, HeaderComponent, CategoryNavbarComponent, FooterComponent, PostCardComponent, SubscriptionFormComponent]
 })
 export class AppComponent {
   title = 'ang-blog-app';
